@@ -58,6 +58,17 @@ def QR_Factorization(Matrix):
       Vec2 = Vector02[i] – (r[i][j]*q[i])
       return("Q = ")
       
+def BackSubstitution(matrix):
+  Q * y = b
+  backsub(R,b)
+  c = [0] * len(b)
+  [[len(b)] = b[len(b)]/R[len(b)][len(b)]
+  for i in reversed(range(len(b)):
+    c[i] = b[i]
+    for j in range(i+1, len(b)):
+      c[i] = c[i] - c[j]R[i][i]
+      c[i] = c[i]/R[i][i]
+  return c
 
 
 
@@ -75,8 +86,10 @@ TestMatrix1 = [[1, 2], [2, 3], [3, 4]]
 TestMatrix2 = [[9, 5.2], [6, 8.7], [1, 2.5]]
 TestMatrix3 = [[2i, 10i], [1i, 5i], [12i, 14i]] 
   
-
-
+ 
+print(vandermonde(data))
 print(QR(TestMatrix1,TestVector1A, Testvector2A))
+print(backsubstitution(matrix))
+
 #print(QR(TestMatrix2,TestVector1B, Testvector2B))
 #print(QR(TestMatrix3,TestVector1C, Testvector2C))
