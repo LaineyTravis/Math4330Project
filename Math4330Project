@@ -90,6 +90,6 @@ TestMatrix3 = [[2i, 10i], [1i, 5i], [12i, 14i]]
 print(vandermonde(data))
 print(QR(TestMatrix1,TestVector1A, Testvector2A))
 print(backsubstitution(matrix))
-
+ 
 #print(QR(TestMatrix2,TestVector1B, Testvector2B))
 #print(QR(TestMatrix3,TestVector1C, Testvector2C))
